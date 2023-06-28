@@ -1,0 +1,326 @@
+
+/* Body */
+body {
+background-color: #222;
+background-image: url('images/bg_pattern.png');
+padding: 0px;
+margin: 0 auto;
+margin-top: 8px;
+width: 95%;
+max-width: 1000px;
+text-align: center;
+#color: #c9f;
+color: #f2ebb5;
+display: block !important;
+}
+
+/* horizontal lines */
+hr {
+padding: 0px;
+margin: 0px;
+margin: 1.5%;
+margin-top: 30px;
+margin-bottom: 30px;
+height: 2px;
+#background: #c9f;
+background: #f2ebb5;
+border: 0px;
+border-radius: 2px;
+}
+
+hr.hidden {
+display: none;
+}
+
+/* horizontal lines */
+hr.big_horizontal_line {
+height: 4px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+#icon {
+width: 150px;
+}
+
+#icon_light {
+width: 150px;
+background-color: #cc99ff;
+}
+
+#icon_contact {
+width: 100px;
+}
+
+/* Normal links */
+a {
+color: #6696ff;
+}
+
+a:hover {
+color: #96ff66;
+}
+
+/* Button links */
+a.button {
+color: #6696ff;
+background-color: #222;
+padding: 10px;
+text-decoration: none;
+border: 2px solid #6696ff;
+border-radius: 10px;
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+a.button img {
+vertical-align: middle;
+}
+
+a.button:hover {
+background-color: #96ff66;
+color: #222;
+border: 2px solid #96ff66;
+}
+
+/* Menu links */
+a.menu {
+color: #6696ff;
+padding: 10px;
+text-decoration: none;
+border: 2px solid #6696ff;
+margin: 0px;
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+min-width: 18px;
+}
+
+a.menu:hover {
+color: #222;
+background-color: #96ff66;
+border: 2px solid #96ff66;
+}
+
+/* Menu links - disabled */
+a.menu-selected {
+color: #666;
+padding: 10px;
+text-decoration: none;
+border: 2px solid #666;
+margin: 0px;
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+min-width: 18px;
+}
+
+/* Same-line code */
+code {
+background: #111;
+padding: 4px;
+border: 1px solid #333;
+border-radius: 8px;
+}
+
+/* Multi line code
+ * in markdown just leave a tab
+ * or four spaces before the code
+ */
+pre {
+background: #111;
+border: 1px solid #333;
+border-radius: 8px;
+padding: 4px;
+}
+
+pre code {
+border: 0;
+background: 0;
+padding: 0;
+}
+
+/*
+.code-big {
+background: #111;
+padding: 20px;
+white-space: pre-wrap;
+display: block;
+}
+*/
+
+/* Used for notes and warnings */
+blockquote {
+background: #111;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 4px;
+padding-bottom: 4px;
+#border-left: 4px solid #c9f;
+border-left: 4px solid #f2ebb5;
+border-radius: 8px;
+margin: 0px;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+}
+
+/*
+.text-left {
+text-align: left;
+width: 80%;
+margin: 0 auto;
+}
+*/
+
+/* Figures */
+/*
+figure {
+background: #111;
+border: 1px solid #333;
+border-radius: 8px;
+display: inline-block;
+text-align: left;
+padding: 20px;
+margin: 0px;
+max-width: 950px;
+width: 90%;
+overflow: auto;
+font-family: monospace;
+}
+
+figcaption {
+background: #222;
+padding: 10px;
+font-style: italic;
+}
+
+figure code {
+background: #2220;
+padding: 0px;
+border: 0;
+white-space: pre;
+}
+
+pre {
+margin: 0 0 0 0;
+padding: 0px;
+}
+*/
+
+.content {
+background: #3335;
+text-align: left;
+margin: 1.5%;
+padding: 3%;
+padding-top: 0px;
+padding-bottom: 0px;
+#border: 1px solid #c9f;
+border: 1px solid #f2ebb5;
+border-radius: 4px;
+}
+
+/*
+ * grid interface
+ *
+ */
+
+.content-grid {
+overflow: auto;
+display: grid;
+grid-template-columns: 300px 300px 300px;
+grid-gap: 20px;
+justify-content: center;
+}
+
+.content-grid-tile {
+background: #3335;
+text-align: left;
+#border: 1px solid #c9f;
+border: 1px solid #f2ebb5;
+border-radius: 4px;
+height: 400px;
+position: relative;
+}
+
+.content-grid-tile h4 {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.content-grid-tile-description {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.content-grid-tile-price {
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
+
+/*
+ * "Afloof.dev" copy on top
+ */
+.site-title {
+font-size: 2em;
+font-weight: bold;
+margin-top: 0.67em;
+margin-bottom: 0.67em;
+}
+
+/*
+ * make sure images do not overflow,
+ * and have a tiny margin when placed on top of
+ * each other
+ *
+ */
+img {
+max-width: 100%;
+margin-top: 1px;
+}
+
+.content-grid img {
+margin: 0px;
+}
+
+.center-aligned {
+text-align: center;
+}
+
+/*
+ * progress bar
+ */
+.progress {
+width: 300px;
+height: 30px;
+padding: 3px;
+#border: 1px solid #c9f;
+border: 1px solid #f2ebb5;
+border-radius: 4px;
+}
+
+.progress-bar {
+#background: #c9f;
+background: #f2ebb5;
+height: 30px;
+}
+
+.progress-text {
+position:relative;
+top: -40px;
+left: 3px;
+}
+
+.dd-promo {
+#border: 1px solid #c9f;
+border: 1px solid #f2ebb5;
+border-radius: 4px;
+padding: 20px;
+margin: 5px;
+text-align: center;
+display:inline-block;
+background-color: #181818;
+}
