@@ -10,7 +10,7 @@ OUT=_site
 # raw files that are to be copied as-is on the same
 # path as the source file
 #
-RAW_FILES_SRC=LICENSE style.css favicon.ico logo.png robots.txt $(wildcard images/*) $(wildcard images/games/rue/*)
+RAW_FILES_SRC=LICENSE style.css favicon.ico logo.png app-ads.txt robots.txt $(wildcard images/*) $(wildcard images/games/rue/*)
 RAW_FILES_DST=$(RAW_FILES_SRC:%=${OUT}/%)
 
 #
