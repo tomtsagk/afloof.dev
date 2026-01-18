@@ -1,0 +1,7 @@
+{
+	"title": "Home",
+	"description": "Indie video games created with the aim to be unique and creative.",
+	"content": [
+		"md_files/posts/*"
+	]
+}
