@@ -1,0 +1,8 @@
+{
+	"title": "Shop",
+	"description": "Knitted or Crocheted creations, handmade by me, ready to find a new home.",
+	"content_static": "md_files/shop/static.md",
+	"content": [
+		"md_files/shop/mini/*"
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"title": "Shop",
+	"description": "Knitted or Crocheted creations, handmade by me, ready to find a new home.",
+	"content": [
+		"md_files/shop/snood.md"
+	]
+}

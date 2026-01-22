@@ -23,7 +23,8 @@
 <a class="menu" href="/">Home</a> |
 <a class="menu" href="/games">Games</a> |
 <a class="menu" href="/avdl">avdl</a> |
-<a class="menu" href="/memories">Memories</a>
+<a class="menu" href="/memories">Memories</a> |
+<a class="menu" href="/shop">Shop</a>
 
 <!-- Main Content -->
 <hr class="big_horizontal_line"/>
